@@ -3,7 +3,7 @@ name: explore
 description: Atuar na análise de causa raiz (Root Cause Analysis - RCA), identificando a origem de falhas complexas através de logs e direcionando o fluxo.
 ---
 * **REQUIRES**
-  - Analisar o contexto técnico por meio de logs de compilação ou falhas de testes relatadas. Abortar se o contexto estiver limpo.
+  - Analisar o contexto técnico por meio de logs de compilação ou falhas de testes relatadas. `question` se o contexto estiver limpo.
 * **TOOLS**
   - `read, bash, glob, grep, question`
 * **OBJETIVO:** Investigar e descobrir com precisão cirúrgica a causa raiz de um erro técnico e emitir um direcionamento de rota deterministicamente correto.
