@@ -5,7 +5,7 @@ description: Atuar na análise de causa raiz (Root Cause Analysis - RCA), identi
 * **REQUIRES**
   - Analisar o contexto técnico por meio de logs de compilação ou falhas de testes relatadas. `question` se o contexto estiver limpo.
 * **TOOLS**
-  - `read, bash, glob, grep, question`
+  - `read, bash, glob, grep, question, mcp`
 * **OBJETIVO:** Investigar e descobrir com precisão cirúrgica a causa raiz de um erro técnico e emitir um direcionamento de rota deterministicamente correto.
 * **EXECUÇÃO:**
   - Consultar o context7 MCP para verificar assinaturas de métodos e documentações técnicas pertinentes.

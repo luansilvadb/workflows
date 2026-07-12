@@ -5,7 +5,7 @@ description: Extrair a intenção do usuário, criar regras de negócio binária
 * **REQUIRES**
   - Exigir um prompt com a descrição da funcionalidade. `question` se estiver vazio.
 * **TOOLS**
-  - `read, write, edit, glob, grep, question, web_search`
+  - `read, write, edit, glob, grep, question, web_search, mcp`
 * **OBJETIVO:** Transformar a intenção do usuário em regras de negócio claras e desenhar a topologia estrutural do sistema através de interfaces limpas.
 * **EXECUÇÃO:**
   - Avaliar detalhadamente o escopo fornecido em $ARGUMENTS.
