@@ -10,12 +10,12 @@ Ciclo de vida sequencial de passagem de bastão (handoff) dos agentes inteligent
 
 ```mermaid
 graph TD
-    REQ[/requirements] -->|Sucesso| CODE[/code]
-    CODE -->|Sucesso| TEST[/test]
+    REQ[/requirements/] -->|Sucesso| CODE[/code/]
+    CODE -->|Sucesso| TEST[/test/]
     CODE -->|Falha| REQ
-    TEST -->|Sucesso| COMMIT[/commit]
+    TEST -->|Sucesso| COMMIT[/commit/]
     TEST -->|Falha 1ª e 2ª vez| CODE
-    TEST -->|Falha persistente 3ª vez| EXPLORE[/explore]
+    TEST -->|Falha persistente 3ª vez| EXPLORE[/explore/]
     EXPLORE -->|Erro de Contrato| REQ
     EXPLORE -->|Erro de Lógica| CODE
 ```
