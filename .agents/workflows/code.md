@@ -5,7 +5,7 @@ description: Implementar a lógica de negócios respeitando estritamente os cont
 * **Requires**
   - Identificar a existência de interfaces ou structs válidas no contexto. Abortar se não existirem ou se as definições não forem claras.
 * **Tools**
-  - [read, write, edit, glob, grep, question]
+  - `read, write, edit, glob, grep, question`
 * **OBJETIVO:** 
   - Implementar a lógica de negócios de forma robusta, respeitando estritamente os contratos arquiteturais definidos na etapa anterior.
 * **EXECUÇÃO:**

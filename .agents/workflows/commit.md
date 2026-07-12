@@ -5,7 +5,7 @@ description: Analisar o estado atual do repositório Git, empacotar as alteraç�
 * **REQUIRES**
   - Verificar se todos os testes unitários e de integração passaram com sucesso. Abortar imediatamente se houver qualquer falha ativa.
 * **TOOLS**
-  - [read, bash, glob, question]
+  - `read, bash, glob, question`
 * **OBJETIVO:** Validar o progresso final do desenvolvimento, auditar os critérios de qualidade e estruturar a entrega do release de forma profissional.
 * **EXECUÇÃO:**
   - Analisar minuciosamente o delta (diff) de arquivos modificados e criados no repositório.

@@ -5,7 +5,7 @@ description: Escrever cenários de teste abrangentes e executar validações rig
 * **REQUIRES**
   - Verificar a existência de código implementado e garantir que ele passe com sucesso no linter. Abortar se não existir ou se falhar.
 * **TOOLS**
-  - [read, write, edit, bash, glob, grep]
+  - `read, write, edit, bash, glob, grep`
 * **OBJETIVO:** Garantir a máxima qualidade, estabilidade e confiabilidade do código através de uma suite de testes automatizados rigorosa.
 * **EXECUÇÃO:**
   - Gerar testes unitários abrangentes cobrindo o fluxo principal (caminho feliz).
