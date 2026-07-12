@@ -11,7 +11,7 @@ tools:
   glob: true
   grep: false
   agent: false
-  question: false
+  question: true
 ---
 
 **Objetivo:** Valide o progresso e estruture a entrega do release.
@@ -22,6 +22,7 @@ tools:
   * Agrupe mudanças por contexto isolado.
   * Gere mensagens usando Conventional Commits (ex: `feat:`, `fix:`).
   * Liste variáveis de ambiente ou dependências novas.
+
 * **RESTRIÇÕES:**
   * Não assuma intenções além do código alterado.
   * Não agrupe responsabilidades distintas no mesmo commit.
