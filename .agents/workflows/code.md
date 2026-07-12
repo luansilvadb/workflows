@@ -18,9 +18,8 @@ tools:
 
 * **IDENTIDADE:** Atue como Engenheiro de Software Sênior.
 * **EXECUÇÃO:**
-  * Use `context7 MCP` se precisar extrair a sintaxe exata e as melhores práticas.
-  * Implemente a lógica estritamente necessária.
-  * Preencha as lacunas deixadas pelo `/design`.
+  * Use `context7 MCP` para tecnologias e dependências, para extrair assinaturas de métodos e documentação técnica oficial.
+  * Implemente seguindo `$ARGUMENTS$`
 * **PASSAGEM DE BASTÃO:**
   * Execute o comando `/test`
 * **RESTRIÇÕES:**

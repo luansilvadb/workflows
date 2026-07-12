@@ -22,7 +22,7 @@ tools:
   * **Fase 1: Análise e Requisitos**
     * Avalie o escopo da funcionalidade descrita em `$ARGUMENTS` para aplicar as ferramentas corretas.
     * Use `web_search` para pesquisar padrões de mercado, regras de conformidade vigentes e fluxos comuns de engenharia relacionados à funcionalidade.
-    * Use `context7 MCP` para extrair informações da tecnologia atual e dependências.
+    * Use `context7 MCP` para tecnologias e dependências, para extrair assinaturas de métodos e documentação técnica oficial.
     * Mapeie atores e entidades do domínio.
     * Converta regras em condições binárias (Sim/Não).
     * Estabeleça critérios de aceite estritos.

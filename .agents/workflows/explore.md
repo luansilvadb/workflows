@@ -23,9 +23,9 @@ tools:
   * Faça perguntas ao usuário para obter clareza.
   * Identifique cirurgicamente a causa raiz.
   * Aplique a Árvore de Decisão para roteamento:
-    * SE (erro == "falta de tipo, interface ou schema") ENTÃO rota = `/design --refactor`.
+    * SE (erro == "falta de tipo, interface ou schema") ENTÃO rota = `/requirements --refactor`.
     * SE (erro == "lógica incorreta ou sintaxe inválida") ENTÃO rota = `/code --fix`.
-    * SE (erro == "requisito conflitante ou ambíguo") ENTÃO rota = `/req --update`.
+    * SE (erro == "requisito conflitante ou ambíguo") ENTÃO rota = `/requirements --update`.
   * Formate a saída obrigatoriamente como:
     `rota definida`, `Descrição curta da causa raiz`
 * **RESTRIÇÕES:**
