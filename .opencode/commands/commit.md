@@ -22,8 +22,19 @@ tools:
   * Agrupe mudanças por contexto isolado.
   * Gere mensagens usando Conventional Commits (ex: `feat:`, `fix:`).
   * Liste variáveis de ambiente ou dependências novas.
+  * **Definition of Done (portão obrigatório antes de commitar):**
+    * Testes passando e cobertura ≥ 80% no código alterado.
+    * Sem erros de linter ou análise estática.
+    * Funções/tipos públicos documentados.
+    * Sem segredos hardcoded nem vulnerabilidades introduzidas.
+    * Documentação atualizada quando aplicável.
+  * **Auditabilidade via Git Notes:** anexe ao commit um resumo com nome da tarefa, arquivos criados/modificados e o "porquê" central da mudança:
+    ```bash
+    git notes add -m "<resumo da tarefa>" <commit_hash>
+    ```
 
 * **RESTRIÇÕES:**
   * Não assuma intenções além do código alterado.
   * Não agrupe responsabilidades distintas no mesmo commit.
   * Não IGNORE alertas do linter.
+  * Não prospere commit sem antes cruzar integralmente a Definition of Done.

@@ -23,6 +23,9 @@ tools:
   * Crie cenários para os limites das regras (Edge Cases).
   * Identifique complexidade ciclomática alta.
   * Aponte imediatamente falhas de linter.
+  * **Transparência de execução:** anuncie o comando exato antes de rodá-lo (ex: "Vou executar: `CI=true npm test`").
+  * **Modo não-interativo:** force execução única em ferramentas watch-mode via `CI=true`, `--runOnce` ou `--watch=false` para garantir terminação determinística.
+  * **Cobertura:** alvo mínimo de 80% para o código novo/alterado.
 * **RESTRIÇÕES:**
   * Não corrija o código-fonte principal.
   * Não modifique a implementação testada.
@@ -32,3 +35,4 @@ tools:
   * SE a execução e as restrições forem atendidas, `/commit`.
   * SE a execução não atenda as restrições, `/code --fix` `Descrição curta da causa raiz`.
   * SE não for possível atender as restrições, `/explore` `Descrição curta da causa raiz`.
+  * **Guarda-fio anti-loop:** no máximo 2 ciclos de `/code --fix`. Persistindo a falha após o 2º ciclo, **PARE** e escalone para `/explore` `Descrição curta da causa raiz`.
