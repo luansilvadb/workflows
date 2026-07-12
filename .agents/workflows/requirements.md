@@ -3,7 +3,7 @@ name: requirements
 description: Extrair a intenção do usuário, criar regras de negócio binárias e desenhar a topologia do sistema (interfaces, structs, schemas).
 ---
 * **REQUIRES**
-  - Exigir um prompt com a descrição da funcionalidade. Abortar se estiver vazio.
+  - Exigir um prompt com a descrição da funcionalidade. `question` se estiver vazio.
 * **TOOLS**
   - `read, write, edit, glob, grep, question, web_search`
 * **OBJETIVO:** Transformar a intenção do usuário em regras de negócio claras e desenhar a topologia estrutural do sistema através de interfaces limpas.
