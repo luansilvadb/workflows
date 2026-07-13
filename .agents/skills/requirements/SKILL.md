@@ -1,5 +1,5 @@
 ---
-name: .requirements
+name: requirements
 description: Extrair a intenção do usuário, criar regras de negócio binárias e desenhar a topologia do sistema (interfaces, structs, schemas).
 ---
 * **REQUIRES**

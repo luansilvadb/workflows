@@ -1,5 +1,5 @@
 ---
-name: .code
+name: code
 description: Implementar a lógica de negócios respeitando estritamente os contratos arquiteturais e interfaces fornecidas.
 ---
 * **REQUIRES**

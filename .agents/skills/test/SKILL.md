@@ -1,5 +1,5 @@
 ---
-name: .test
+name: test
 description: Escrever cenários de teste abrangentes e executar validações rigorosas de qualidade e cobertura de código.
 ---
 * **REQUIRES**

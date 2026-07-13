@@ -1,5 +1,5 @@
 ---
-name: .commit
+name: commit
 description: Analisar o estado atual do repositório Git, empacotar as alterações realizadas e documentar a entrega estrutural de forma limpa.
 ---
 * **REQUIRES**

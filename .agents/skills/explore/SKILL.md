@@ -1,5 +1,5 @@
 ---
-name: .explore
+name: explore
 description: Atuar na análise de causa raiz (Root Cause Analysis - RCA), identificando a origem de falhas complexas através de logs e direcionando o fluxo.
 ---
 * **REQUIRES**
